@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2B6E2519C939EF0080C104 /* mid.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2B6E2419C939EF0080C104 /* mid.png */; };
 		CE96948B19C934C4003E2835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96948A19C934C4003E2835 /* Foundation.framework */; };
 		CE96948D19C934C4003E2835 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96948C19C934C4003E2835 /* CoreGraphics.framework */; };
 		CE96948F19C934C4003E2835 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96948E19C934C4003E2835 /* UIKit.framework */; };
@@ -19,6 +20,8 @@
 		CE9694A619C934C4003E2835 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE96948E19C934C4003E2835 /* UIKit.framework */; };
 		CE9694AE19C934C4003E2835 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE9694AC19C934C4003E2835 /* InfoPlist.strings */; };
 		CE9694B019C934C4003E2835 /* CircleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9694AF19C934C4003E2835 /* CircleButtonTests.m */; };
+		CE9694BB19C9356E003E2835 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9694BA19C9356E003E2835 /* RootViewController.m */; };
+		CE9694BE19C9361A003E2835 /* CircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9694BD19C9361A003E2835 /* CircleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE2B6E2419C939EF0080C104 /* mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mid.png; sourceTree = "<group>"; };
 		CE96948719C934C4003E2835 /* CircleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE96948A19C934C4003E2835 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE96948C19C934C4003E2835 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +52,10 @@
 		CE9694AB19C934C4003E2835 /* CircleButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircleButtonTests-Info.plist"; sourceTree = "<group>"; };
 		CE9694AD19C934C4003E2835 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE9694AF19C934C4003E2835 /* CircleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleButtonTests.m; sourceTree = "<group>"; };
+		CE9694B919C9356E003E2835 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CE9694BA19C9356E003E2835 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CE9694BC19C9361A003E2835 /* CircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleButton.h; sourceTree = "<group>"; };
+		CE9694BD19C9361A003E2835 /* CircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 			children = (
 				CE96949919C934C4003E2835 /* AppDelegate.h */,
 				CE96949A19C934C4003E2835 /* AppDelegate.m */,
+				CE9694B919C9356E003E2835 /* RootViewController.h */,
+				CE9694BA19C9356E003E2835 /* RootViewController.m */,
+				CE2B6E2419C939EF0080C104 /* mid.png */,
+				CE9694BC19C9361A003E2835 /* CircleButton.h */,
+				CE9694BD19C9361A003E2835 /* CircleButton.m */,
 				CE96949C19C934C4003E2835 /* Images.xcassets */,
 				CE96949119C934C4003E2835 /* Supporting Files */,
 			);
@@ -219,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2B6E2519C939EF0080C104 /* mid.png in Resources */,
 				CE96949519C934C4003E2835 /* InfoPlist.strings in Resources */,
 				CE96949D19C934C4003E2835 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +255,8 @@
 			files = (
 				CE96949B19C934C4003E2835 /* AppDelegate.m in Sources */,
 				CE96949719C934C4003E2835 /* main.m in Sources */,
+				CE9694BB19C9356E003E2835 /* RootViewController.m in Sources */,
+				CE9694BE19C9361A003E2835 /* CircleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +453,7 @@
 				CE9694B519C934C4003E2835 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE9694B619C934C4003E2835 /* Build configuration list for PBXNativeTarget "CircleButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +462,7 @@
 				CE9694B819C934C4003E2835 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
