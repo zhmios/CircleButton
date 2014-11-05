@@ -28,7 +28,9 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
-                                                                                             
+    UIView *futureOne = [[UIView alloc]initWithFrame:CGRectMake(0, 64,CGRectGetWidth(self.view.bounds), 90)];
+    futureOne.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:futureOne];
     // Do any additional setup after loading the view.
 }
 
