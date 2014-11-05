@@ -35,6 +35,10 @@
     UIView *futureSec = [[UIView alloc]initWithFrame:CGRectMake(0, 64 + 90 , CGRectGetWidth(self.view.bounds), 60)];
     futureSec.backgroundColor = [UIColor redColor];
     [self.view addSubview:futureSec];
+    
+    UIView *futureOne_1 = [[UIView alloc]initWithFrame:CGRectMake(0, 64 + 90 +60, CGRectGetWidth(self.view.bounds), 60)];
+    futureOne_1.backgroundColor = [UIColor purpleColor];
+    [self.view addSubview:futureOne_1];
     // Do any additional setup after loading the view.
 }
 
