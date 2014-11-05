@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-
+#import "CircleButton.h"
 @interface RootViewController ()
 
 @end
@@ -19,6 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        
     }
     return self;
 }
@@ -26,7 +27,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-                                                                                             
+    self.view.backgroundColor = [UIColor orangeColor];
+    UIView *futureOne = [[UIView alloc]initWithFrame:CGRectMake(0, 64,CGRectGetWidth(self.view.bounds), 90)];
+    futureOne.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:futureOne];
+    
+    UIView *futureSec = [[UIView alloc]initWithFrame:CGRectMake(0, 64 + 90 , CGRectGetWidth(self.view.bounds), 60)];
+    futureSec.backgroundColor = [UIColor redColor];
+    [self.view addSubview:futureSec];
+    
+    UIView *futureOne_1 = [[UIView alloc]initWithFrame:CGRectMake(0, 64 + 90 +60, CGRectGetWidth(self.view.bounds), 60)];
+    futureOne_1.backgroundColor = [UIColor purpleColor];
+    [self.view addSubview:futureOne_1];
     // Do any additional setup after loading the view.
 }
 
