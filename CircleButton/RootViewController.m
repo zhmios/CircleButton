@@ -50,6 +50,11 @@
     
     third_1.backgroundColor = [UIColor blueColor];
     [self.view addSubview:third_1];
+    
+    
+    UIView *third_2 = [[UIView alloc]initWithFrame:CGRectMake(0, 64 + 180 + 90 +50, CGRectGetWidth(self.view.bounds), 60)];
+    third_2.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:third_2];
 
     // Do any additional setup after loading the view.
 }
